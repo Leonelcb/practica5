@@ -1,0 +1,15 @@
+1: Inicio
+2:Inicializar las variables deviceLongitude y deviceLatitude con el valor null.
+3:Obtener el elemento HTML con el id display-coordinates y almacenarlo en la variable displayCoordinates.
+4:Definir la función showPosition(coordinates) que toma un objeto de coordenadas como argumento.
+4.1:Asignar la longitud y latitud del dispositivo a las variables deviceLongitude y deviceLatitude, respectivamente, utilizando las coordenadas del objeto.
+4.2:Mostrar la longitud y latitud en la consola.
+4.3:Mostrar la longitud y latitud en el elemento displayCoordinates mediante la propiedad innerHTML.
+5:Declarar las variables variable1, variable2 y variable3 utilizando var, lo que permite su reasignación y redeclaración en el mismo ámbito.
+6:Declarar las constantes constante1 y constante2 utilizando const, lo que significa que no pueden ser reasignadas ni redeclaradas en el mismo ámbito.
+7:Definir la función myLocation() que intenta obtener la posición actual del dispositivo utilizando la API de geolocalización.
+7.1:Si tiene éxito, llama a la función showPosition.
+7.2:Si falla, muestra un mensaje en displayCoordinates indicando que la ubicación está bloqueada y se debe habilitar el permiso de ubicación.
+8:Crear la cadena concatenacion que contiene la concatenación de la cadena "Longitud: " y "Latitud: " junto con los valores actuales de deviceLongitude y deviceLatitude.
+9: Mostrar ubicacion.
+10: Fin.
